@@ -1,0 +1,16 @@
+export const colors = {
+  alice_blue: '#F8F9FB',
+  blue: '#F0F3F8',
+  blue_b: '#E0E5EB',
+  light_blue: '#F7F8FA',
+  gray_400: '#9DA6B4',
+  gray_500: '#697180',
+  gray_800: '#1F2939',
+  cyan_blue: '#3698FA',
+  orange: '#F46B4D',
+  red_100: '#FEE3E3',
+  red_200: '#FED7D7',
+  red_700: '#C53030',
+  red_800: '#9B2C2C',
+  white: '#FFFFFF',
+};
