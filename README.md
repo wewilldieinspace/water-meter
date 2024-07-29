@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# Hot and Cold Water Meter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based project for managing hot and cold water meters.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+  ```bash
+   git clone git@github.com:wewilldieinspace/water-meter.git
+   cd water-meter
+  ```
+2. Install the dependencies:
+  ```bash
+   $ yarn install
+  ```
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Development
+To start the development server, run:
+  ```bash
+    $ yarn dev
+  ```
 
-- Configure the top-level `parserOptions` property like this:
+### Production
+To build the project for production, run:
+  ```bash
+    $ yarn build
+  ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Preview
+To preview the built project, run:
+  ```bash
+    $ yarn preview
+  ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Linting
+To lint the project, run:
+  ```bash
+    $ yarn lint
+  ```
+To fix linting issues, run:
+  ```bash
+    $ yarn lint:fix
+  ```
+
+### Formatting
+To format the code using Prettier, run:
+  ```bash
+    $ yarn prettier
+  ```
